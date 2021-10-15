@@ -1,0 +1,2 @@
+# crudpyestoque
+CRUD
