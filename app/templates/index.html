@@ -5,27 +5,35 @@
     <meta charset="UTF-8">
     <title>Estoque GMS</title>
 
+    <link rel="stylesheet" href="styles/styles.css" type="text/css" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">">
 
 </head>
 
 <body>
-    <div class="col-8 m-auto pt-2 pb-2 text-center">
+  <nav class="navbar navbar-light ">
+    
+    <a class="navbar-brand" href="#">
+      <img src="/img/img.png"  width="170" height="80" alt="">
+    </a>
+    <div>
+      <form method="get">
+          <input type="text" id="search" name="search" class="form-control" placeholder="Buscar...">
+      </form>
+ </div>
+  </nav>
+    <div  >
         <!--<h1>Crud com Python</h1>-->
-            <h1>Controle Estoque</h1>
+        <p class="h4" style="text-align:right; padding-right: 1rem;" >Controle Estoque</p>
     </div>
 
     <div class="col-8 m-auto pt-3 pb-2 text-center">
         <a href="/form" class="btn btn-success">Adicionar </a>
     </div>
 
-     <div class="col-8 m-auto pt-3 pb-2 text-center">
-         <form method="get">
-             <input type="text" id="search" name="search" class="form-control" placeholder="Buscar...">
-         </form>
-    </div>
+     
 
-    <div class="col-8 m-auto pt-4 pb-2 text-center"></div>
+    <div style class="col-8 m-auto pt-4 pb-2 text-center"></div>
     <table class="table">
       <thead class="thead-dark">
         <tr>
